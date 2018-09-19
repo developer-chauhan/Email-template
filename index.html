@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Spartan Nash">
+	<meta name="keywords" content="spartan, nash">
+	<meta name="author" content="Spartan Nash">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Spartan Nash</title>
+	<style type="text/css">
+		body {
+			background-color: #F2EEEB;
+			font-family: Arial;
+			margin: 0;
+		}
+		.main-container {
+			max-width: 800px;
+			width: 100%;
+			margin: 0 auto;
+		}
+		.header-browser-view-link {
+			font-size: 12px;
+			color:  #555555;
+			text-align: right;
+			font-weight: bold;
+			margin: 15px 0;
+		}
+		.header-browser-view-link a {
+			text-decoration: none;
+			color: green;
+		}
+		.spartan-nash-container {
+			background: url(assets/bg_offer_header@2x.png);
+			background-size: cover;
+			height: 200px;
+		}
+		.spartan-nash {
+			background: url(assets/img_red_chili@2x.png) left top no-repeat, url(assets/img_yellow_pepper@2x.png) right bottom no-repeat;
+			background-size: 30%;
+			height: 200px;
+			width: 100%;
+			position: relative;
+		}
+		.spartan-nash-logo {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			max-width: 350px;
+			width: 50%;
+			left: 0;
+			right: 0;
+			margin: 0 auto;
+			display: inline-block;
+		}
+		.spartan-nash-logo img {
+			width: 100%;
+		}
+		.personalized-prices {
+			position: relative;
+			background: url(assets/img_tableview@2x.png);
+			background-size: cover;
+			height: 205px;
+		}
+		.personalized-prices .text {
+			position: absolute;
+			left: 0;
+			right: 0;
+			margin: 0 auto;
+			top: 50%;
+			transform: translateY(-50%);
+			color: #ffffff;
+			font-weight: bold;
+			text-align: center;
+		}
+		.personalized-prices .text h2 {
+			font-size: 48px;
+			font-weight: normal;
+			margin: 0;
+		}
+		.personalized-prices .text p {
+			font-size: 18px;
+		}
+		.personalized-prices-detail-sec {
+			background: url(assets/bg_process@2x.png);
+			padding: 55px 0;
+			background-size: cover;
+		}
+		.personalized-prices-detail-sec .heading {
+			text-align: center;
+		}
+		.personalized-prices-detail-sec .heading h2 {
+			color: #ffffff;
+			margin: 0;
+			font-weight: normal;
+			font-size: 26px;
+		}
+		.personalized-prices-detail-sec .heading p {
+			color: goldenrod;
+			font-size: 24px;
+		}
+		.personalized-prices-detail-sec .steps {
+			text-align: center;
+		}
+		.personalized-prices-detail-sec .steps ul {
+			padding-left: 0;
+			max-width: 550px;
+			width: 100%;
+			margin: 0 auto;
+			clear: both;
+			display: inline-block;
+		}
+		.personalized-prices-detail-sec .steps li {
+			display: block;
+			list-style-type: none;
+			padding-right: 100px;
+			float: left;
+			text-align: center;
+			color: #ffffff;
+			font-size: 16px;
+		}
+		.personalized-prices-detail-sec .steps li .img-container {
+			height: 100px;
+			width: 100px;
+			border-radius: 100px;
+			position: relative;
+			text-align: center;
+			display: inline-block;
+		}
+		.personalized-prices-detail-sec .steps li .img-container img {
+			width: 100%;
+		}
+		.personalized-prices-detail-sec .steps li .img-container:after {
+			content: '.........';
+			display: inline-block;
+			position: absolute;
+			left: 100%;
+			top: 18%;
+			font-size: 36px;
+			line-height: 36px;
+			color: #ffffff;
+			padding: 0 15%;
+		}
+		.personalized-prices-detail-sec .steps li:last-child {
+			padding-right: 0;
+		}
+		.personalized-prices-detail-sec .steps li:last-child .img-container:after {
+			content: '';
+		}
+		.products-list {
+			background-color: #ffffff;
+		}
+		.products-container {
+			margin-top: -75px;
+		}
+	</style>
+</head>
+<body>
+	<div class="main-container">
+		<div class="header-browser-view-link">
+			<a href="#">VIEW</a> IN YOUR BROWSER
+		</div>
+		<div class="spartan-nash-container">
+			<div class="spartan-nash">
+				<a href="#" class="spartan-nash-logo">
+					<img src="assets/logo_spartannash@2x.png" alt="spartan nash">
+				</a>
+			</div>
+		</div>
+		<div class="personalized-prices">
+			<div class="text">
+				<h2>Personalized Prices</h2>
+				<p>SPECIAL PRICES JUST FOR YOU!</p>
+			</div>
+		</div>
+		<div class="personalized-prices-detail-sec">
+			<div class="heading">
+				<h2>Laura, your PERSONALIZED prices are here!</h2>
+				<p>Prices are good through July 9, 2018.</p>
+			</div>
+			<div class="steps">
+				<ul>
+					<li>
+						<div class="img-container">
+							<img src="assets/ic_shop@2x.png" alt="shop">
+						</div>
+						<h3>SHOP</h3>
+					</li>
+					<li>
+						<div class="img-container">
+							<img src="assets/ic_card@2x.png" alt="card">
+						</div>
+						<h3>SCAN <br>LOYALTY CARD</h3>
+					</li>
+					<li>
+						<div class="img-container">
+							<img src="assets/ic_save@2x.png" alt="save">
+						</div>
+						<h3>SAVE</h3>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="products-list">
+			<div class="product-container">
+				<div class="product">
+
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
