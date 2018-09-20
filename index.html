@@ -82,7 +82,7 @@
 		}
 		.personalized-prices-detail-sec {
 			background: url(assets/bg_process@2x.png);
-			padding: 55px 0;
+			padding: 55px 0 75px;
 			background-size: cover;
 		}
 		.personalized-prices-detail-sec .heading {
@@ -147,10 +147,94 @@
 			content: '';
 		}
 		.products-list {
-			background-color: #ffffff;
+			background-color: #eeeeee;
+			position: relative;
+			text-align: center;
 		}
-		.products-container {
+		.product-container {
 			margin-top: -75px;
+			padding: 10px;
+			display: inline-block;
+			clear: both;
+			max-width: 750px;
+			width: 100%;
+		}
+		.product {
+			max-width: 210px;
+			width: 100%;
+			margin: 10px;
+			border-radius: 10px;
+			box-shadow: 0px 0px 2px 3px #ccc;
+			padding: 10px;
+			background-color: #ffffff;
+			min-height: 400px;
+			float: left;
+		}
+		.product-img {
+			margin-bottom: 10px;
+		}
+		.product-img img {
+			width: 100%;
+		}
+		.product .off {
+			text-align: center;
+			color: green;
+			font-size: 24px;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+		.product .saving {
+			color: red;
+			font-size: 18px;
+			text-align: center;
+			margin-bottom: 10px;
+		}
+		.product .product-name {
+			font-size: 14px;
+			color: #333333;
+			text-align: center;
+		}
+		.product .sticker {
+			position: relative;
+			margin-top: 10px;
+			height: 40px;
+			background: url(assets/tag_your_price@2x.png) no-repeat;
+			background-size: 100%;
+			width: 50%;
+			margin-left: -10px;
+		}
+		.product .sticker label {
+			position: absolute;
+			left: 5px;
+			top: 5px;
+			color: #ffffff;
+		}
+		.product .price {
+			padding: 10px;
+		}
+		.product .price .salling-price {
+			color: green;
+			font-size: 18px;
+		}
+		.product .price .original-price {
+			color: red;
+			font-size: 18px;
+		}
+		.product .special-saving {
+			text-align: center;
+			font-size: 24px;
+			color: green;
+			margin-bottom: 10px;
+		}
+		.product .regular-price {
+			text-align: center;
+			color: #333;
+			font-size: 20px;
+			margin-bottom: 10px;
+		}
+		.total-savings {
+			background: url(assets/bg_total_savings@2x.png);
+			padding: 30px;
 		}
 	</style>
 </head>
@@ -203,8 +287,100 @@
 		<div class="products-list">
 			<div class="product-container">
 				<div class="product">
-
+					<div class="product-img">
+						<img src="assets/img_tomato@2x.png" alt="Red Tomatoes">
+					</div>
+					<div class="off">
+						10% OFF
+					</div>
+					<div class="saving">
+						You save $0.15/lb
+					</div>
+					<div class="product-name">
+						Red Tomatoes
+					</div>
 				</div>
+				<div class="product">
+					<div class="product-img">
+						<img src="assets/img_onion@2x.png" alt="Red Onions">
+					</div>
+					<div class="off">
+						10% OFF
+					</div>
+					<div class="saving">
+						You save $0.15/lb
+					</div>
+					<div class="product-name">
+						Red Tomatoes
+					</div>
+				</div>
+				<div class="product">
+					<div class="product-img">
+						<img src="assets/img_kettle_chips@2x.png" alt="Lays">
+					</div>
+					<div class="sticker">
+						<label>Your Price</label>
+					</div>
+					<div class="price">
+						<label class="salling-price">$2.79</label>
+						<strike class="original-price">$3.49</strike>
+					</div>
+					<div class="product-name">
+						Lay's Kettle Cooked Jalapeno Potato Chips 8 oz
+					</div>
+				</div>
+				<div class="product">
+					<div class="product-img">
+						<img src="assets/img_kraft@2x.png" alt="Kraft">
+					</div>
+					<div class="sticker">
+						<label>Your Price</label>
+					</div>
+					<div class="price">
+						<label class="salling-price">$3.99</label>
+						<strike class="original-price">$4.49</strike>
+					</div>
+					<div class="product-name">
+						Kraft Granted Parmesan Cheese 8 oz
+					</div>
+				</div>
+				<div class="product">
+					<div class="product-img">
+						<img src="assets/img_ritz@2x.png" alt="Kraft">
+					</div>
+					<div class="sticker">
+						<label>Your Price</label>
+					</div>
+					<div class="price">
+						<label class="salling-price">$1.99</label>
+						<strike class="original-price">$3.99</strike>
+					</div>
+					<div class="product-name">
+						Ritz Crisp & Thins Sea Salt Oven Backed Potato &
+						Wheat Chips <br> 7.1 oz
+					</div>
+				</div>
+				<div class="product">
+					<div class="product-img">
+						<img src="assets/img_vita.png" alt="Vita">
+					</div>
+					<div class="special-saving">
+						SAVE $1.00
+					</div>
+					<div class="regular-price">
+						Regular price $1.99
+					</div>
+					<div class="product-name">
+						Vita Coco Coconut Water 16.9 fl oz
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="total-savings">
+			<div class="content">
+				<img src="assets/ic_total_savings.png" alt="total savings">
+				<label>SAVING FOR THE LAST 12 MONTHS</label>
+				<label class="saving-price">$24.00</label>
 			</div>
 		</div>
 	</div>
