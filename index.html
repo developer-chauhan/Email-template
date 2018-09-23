@@ -16,7 +16,7 @@
 		.main-container {
 			max-width: 800px;
 			width: 100%;
-			margin: 0 auto;
+			margin: 10px auto;
 		}
 		.header-browser-view-link {
 			font-size: 12px;
@@ -234,7 +234,104 @@
 		}
 		.total-savings {
 			background: url(assets/bg_total_savings@2x.png);
+			margin-top: 30px;
+		}
+		.total-savings .tot-saving-container {
+			/*background: url(assets/img_basil@2x.png) right top -50px;
+			background-repeat: no-repeat;
 			padding: 30px;
+			background-size: 200px;*/
+			position: relative;
+			padding: 30px;
+		}
+		.total-savings .tot-saving-container .basil-img {
+			position: absolute;
+			top: -45px;
+			right: 50px;
+			width: 200px;
+			height: 200px;
+		}
+		.total-savings .tot-saving-container .basil-img img {
+			width: 100%;
+		}
+		.total-savings .tot-saving-container .content {
+			display: inline-block;
+			border: 1px solid #aaaaaa;
+			padding: 10px;	
+			border-radius: 40px;
+			clear: both;
+			width: 60%;
+		}
+		.total-savings .tot-saving-container .sec {
+			float: left;
+		}
+		.total-savings .tot-saving-container .tot-saving-lbl {
+			width: 42%;
+			padding: 0 10px;
+			font-size: 21px;
+			color: #999999;
+			word-wrap: break-word;
+			overflow: hidden;
+		}
+		.total-savings .tot-saving-container .saving-price {
+			width: 30%;
+			font-size: 36px;
+			color: green;
+			padding: 0 10px;
+			/* float: right; */
+		}
+		.footer .feedback-sec {
+			background-color: #3a5a3a;
+			padding: 20px;
+			clear: both;
+			overflow: hidden;
+		}
+		.footer .feedback-sec .feedback-text {
+			float: left;
+			color: #ffffff;
+			padding-top: 15px;
+		}
+		.footer .feedback-sec .feedback-text a {
+			display: inline-block;
+			vertical-align: middle;
+			margin-right: 10px;
+		}
+		.footer .feedback-sec .social-icons {
+			float: right;
+		}
+		.footer .feedback-sec .social-icons a {
+			display: inline-block;
+			margin: 0 5px;
+		}
+		.footer .menu ul {
+			list-style-type: none;
+			text-align: center;
+		}
+		.footer .menu li {
+			display: inline-block;
+			position: relative;
+		}
+		.footer .menu li a {
+			font-size: 12px;
+			color: green;
+			text-decoration: none;
+			text-transform: uppercase;
+		}
+		.footer .menu li:last-child:after {
+			content: '';
+		}
+		.footer .menu li:after {
+			content: '|';
+			margin: 0 5px;
+			color: green;
+		}
+		.footer .copyright-text {
+			text-align: center;
+		}
+		.footer .copyright-text p {
+			margin: 0;
+			font-size: 10px;
+			color: #999999;
 		}
 	</style>
 </head>
@@ -377,10 +474,48 @@
 			</div>
 		</div>
 		<div class="total-savings">
-			<div class="content">
-				<img src="assets/ic_total_savings.png" alt="total savings">
-				<label>SAVING FOR THE LAST 12 MONTHS</label>
-				<label class="saving-price">$24.00</label>
+			<div class="tot-saving-container">
+				<div class="content">
+					<div class="img-container sec">
+						<img src="assets/ic_total_savings.png" alt="total savings">
+					</div>
+					<div class="tot-saving-lbl sec">
+						<label>SAVING FOR THE LAST 12 MONTHS</label>
+					</div>
+					<div class="saving-price sec">
+						<label class="saving-price">$24.00</label>
+					</div>
+				</div>
+				<div class="basil-img">
+					<img src="assets/img_basil@2x.png">
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="feedback-sec">
+				<div class="feedback-text">
+					<a href="#"><img src="assets/ic_feedback.png"></a>
+					<span>Give us your feedback</span>
+				</div>
+				<div class="social-icons">
+					<a href="#" class="facebook"><img src="assets/icn_facebook.png"></a>
+					<a href="#" class="twitter"><img src="assets/icn_twitter.png"></a>
+					<a href="#" class="pinterest"><img src="assets/icn_pinterest.png"></a>
+					<a href="#" class="instagram"><img src="assets/icn_instagram.png"></a>
+				</div>
+			</div>
+			<div class="menu">
+				<ul>
+					<li><a href="#">Manage Email Preferences</a></li>
+					<li><a href="#">UnSubscribe</a></li>
+					<li><a href="#">Contact Us</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Terms & Conditions</a></li>
+				</ul>
+			</div>
+			<div class="copyright-text">
+				<p>This email was sent to : youme@yahoo.com</p>
+				<p>&copy; Copyright 2018 SpartanNash. All Rights Reserved.</p>
 			</div>
 		</div>
 	</div>
