@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="description" content="Spartan Nash">
@@ -13,34 +14,40 @@
 			font-family: Arial;
 			margin: 0;
 		}
+
 		.main-container {
 			max-width: 800px;
 			width: 100%;
 			margin: 10px auto;
 		}
+
 		.header-browser-view-link {
 			font-size: 12px;
-			color:  #555555;
+			color: #555555;
 			text-align: right;
 			font-weight: bold;
 			margin: 15px 0;
 		}
+
 		.header-browser-view-link a {
 			text-decoration: none;
 			color: green;
 		}
+
 		.spartan-nash-container {
-			background: url(assets/bg_offer_header@2x.png);
+			background: url("http://myconfess.com/assets/bg_offer_header@2x.png");
 			background-size: cover;
 			height: 200px;
 		}
+
 		.spartan-nash {
-			background: url(assets/img_red_chili@2x.png) left top no-repeat, url(assets/img_yellow_pepper@2x.png) right bottom no-repeat;
+			background: url("http://myconfess.com/assets/img_red_chili@2x.png") left top no-repeat, url("http://myconfess.com/assets/img_yellow_pepper@2x.png") right bottom no-repeat;
 			background-size: 30%;
 			height: 200px;
 			width: 100%;
 			position: relative;
 		}
+
 		.spartan-nash-logo {
 			position: absolute;
 			top: 50%;
@@ -49,18 +56,21 @@
 			width: 50%;
 			left: 0;
 			right: 0;
-			margin: 0 auto;
+			margin: 3% 0% 0% 31%;
 			display: inline-block;
 		}
+
 		.spartan-nash-logo img {
 			width: 100%;
 		}
+
 		.personalized-prices {
 			position: relative;
-			background: url(assets/img_tableview@2x.png);
+			background: url("http://myconfess.com/assets/img_tableview@2x.png");
 			background-size: cover;
 			height: 205px;
 		}
+
 		.personalized-prices .text {
 			position: absolute;
 			left: 0;
@@ -72,43 +82,52 @@
 			font-weight: bold;
 			text-align: center;
 		}
+
 		.personalized-prices .text h2 {
 			font-size: 48px;
 			font-weight: normal;
 			margin: 0;
 		}
+
 		.personalized-prices .text p {
 			font-size: 18px;
 		}
+
 		.personalized-prices-detail-sec {
-			background: url(assets/bg_process@2x.png);
-			padding: 55px 0 75px;
+			background: url("http//myconfess.com/assets/bg_process@2x.png");
+			padding: 55px 0 46px;
 			background-size: cover;
 		}
+
 		.personalized-prices-detail-sec .heading {
 			text-align: center;
 		}
+
 		.personalized-prices-detail-sec .heading h2 {
 			color: #ffffff;
 			margin: 0;
 			font-weight: normal;
 			font-size: 26px;
 		}
+
 		.personalized-prices-detail-sec .heading p {
 			color: goldenrod;
 			font-size: 24px;
 		}
+
 		.personalized-prices-detail-sec .steps {
 			text-align: center;
 		}
+
 		.personalized-prices-detail-sec .steps ul {
-			padding-left: 0;
-			max-width: 550px;
+			padding-left: 16%;
+			//max-width: 550px;
 			width: 100%;
 			margin: 0 auto;
 			clear: both;
-			display: inline-block;
+			display: inline-block !important;
 		}
+
 		.personalized-prices-detail-sec .steps li {
 			display: block;
 			list-style-type: none;
@@ -118,6 +137,7 @@
 			color: #ffffff;
 			font-size: 16px;
 		}
+
 		.personalized-prices-detail-sec .steps li .img-container {
 			height: 100px;
 			width: 100px;
@@ -126,9 +146,11 @@
 			text-align: center;
 			display: inline-block;
 		}
+
 		.personalized-prices-detail-sec .steps li .img-container img {
 			width: 100%;
 		}
+
 		.personalized-prices-detail-sec .steps li .img-container:after {
 			content: '.........';
 			display: inline-block;
@@ -140,17 +162,21 @@
 			color: #ffffff;
 			padding: 0 15%;
 		}
+
 		.personalized-prices-detail-sec .steps li:last-child {
 			padding-right: 0;
 		}
+
 		.personalized-prices-detail-sec .steps li:last-child .img-container:after {
 			content: '';
 		}
+
 		.products-list {
 			background-color: #eeeeee;
 			position: relative;
 			text-align: center;
 		}
+
 		.product-container {
 			margin-top: -75px;
 			padding: 10px;
@@ -159,6 +185,7 @@
 			max-width: 750px;
 			width: 100%;
 		}
+
 		.product {
 			max-width: 210px;
 			width: 100%;
@@ -170,12 +197,15 @@
 			min-height: 400px;
 			float: left;
 		}
+
 		.product-img {
 			margin-bottom: 10px;
 		}
+
 		.product-img img {
 			width: 100%;
 		}
+
 		.product .off {
 			text-align: center;
 			color: green;
@@ -183,88 +213,106 @@
 			font-weight: bold;
 			margin-bottom: 10px;
 		}
+
 		.product .saving {
 			color: red;
 			font-size: 18px;
 			text-align: center;
 			margin-bottom: 10px;
 		}
+
 		.product .product-name {
 			font-size: 14px;
 			color: #333333;
 			text-align: center;
 		}
+
 		.product .sticker {
 			position: relative;
 			margin-top: 10px;
 			height: 40px;
-			background: url(assets/tag_your_price@2x.png) no-repeat;
+			background: url("http://myconfess.com/assets/tag_your_price@2x.png") no-repeat;
 			background-size: 100%;
 			width: 50%;
 			margin-left: -10px;
 		}
+
 		.product .sticker label {
 			position: absolute;
 			left: 5px;
 			top: 5px;
 			color: #ffffff;
 		}
+
 		.product .price {
 			padding: 10px;
 		}
+
 		.product .price .salling-price {
 			color: green;
 			font-size: 18px;
 		}
+
 		.product .price .original-price {
 			color: red;
 			font-size: 18px;
 		}
+
 		.product .special-saving {
 			text-align: center;
 			font-size: 24px;
 			color: green;
 			margin-bottom: 10px;
 		}
+
 		.product .regular-price {
 			text-align: center;
 			color: #333;
 			font-size: 20px;
 			margin-bottom: 10px;
 		}
+
 		.total-savings {
-			background: url(assets/bg_total_savings@2x.png);
+			background: url("http//myconfess.com/assets/bg_total_savings@2x.png");
 			margin-top: 30px;
 		}
+
 		.total-savings .tot-saving-container {
-			/*background: url(assets/img_basil@2x.png) right top -50px;
-			background-repeat: no-repeat;
-			padding: 30px;
-			background-size: 200px;*/
+			/*background: url(http://myconfess.com/assets/img_basil@2x.png) right top -50px;
+            background-repeat: no-repeat;
+            padding: 30px;
+            background-size: 200px;*/
 			position: relative;
 			padding: 30px;
 		}
+
 		.total-savings .tot-saving-container .basil-img {
 			position: absolute;
 			top: -45px;
 			right: 50px;
-			width: 200px;
+			max-width: 200px;
 			height: 200px;
+			width: 40%;
+			display: inline-block !important;
 		}
+
 		.total-savings .tot-saving-container .basil-img img {
 			width: 100%;
 		}
+
 		.total-savings .tot-saving-container .content {
 			display: inline-block;
 			border: 1px solid #aaaaaa;
-			padding: 10px;	
+			padding: 10px;
 			border-radius: 40px;
 			clear: both;
 			width: 60%;
 		}
+
 		.total-savings .tot-saving-container .sec {
 			float: left;
 		}
+
 		.total-savings .tot-saving-container .tot-saving-lbl {
 			width: 42%;
 			padding: 0 10px;
@@ -273,6 +321,7 @@
 			word-wrap: break-word;
 			overflow: hidden;
 		}
+
 		.total-savings .tot-saving-container .saving-price {
 			width: 30%;
 			font-size: 36px;
@@ -280,61 +329,86 @@
 			padding: 0 10px;
 			/* float: right; */
 		}
+
 		.footer .feedback-sec {
 			background-color: #3a5a3a;
 			padding: 20px;
 			clear: both;
 			overflow: hidden;
 		}
+
 		.footer .feedback-sec .feedback-text {
 			float: left;
 			color: #ffffff;
 			padding-top: 15px;
 		}
+
 		.footer .feedback-sec .feedback-text a {
 			display: inline-block;
 			vertical-align: middle;
 			margin-right: 10px;
 		}
+
 		.footer .feedback-sec .social-icons {
 			float: right;
 		}
+
 		.footer .feedback-sec .social-icons a {
 			display: inline-block;
 			margin: 0 5px;
 		}
+
 		.footer .menu ul {
 			list-style-type: none;
 			text-align: center;
 		}
+
 		.footer .menu li {
 			display: inline-block;
 			position: relative;
 		}
+
 		.footer .menu li a {
 			font-size: 12px;
 			color: green;
 			text-decoration: none;
 			text-transform: uppercase;
 		}
+
 		.footer .menu li:last-child:after {
 			content: '';
 		}
+
 		.footer .menu li:after {
 			content: '|';
 			margin: 0 5px;
 			color: green;
 		}
+
 		.footer .copyright-text {
 			text-align: center;
 		}
+
 		.footer .copyright-text p {
 			margin: 0;
 			font-size: 10px;
 			color: #999999;
 		}
+
+		@media screen and (max-width: 991px) {
+			.personalized-prices-detail-sec .steps li .img-container:after {
+				content: '.........' !important;
+				font-size: 24px !important;
+				padding: 0 5% !important;
+			}
+
+			.total-savings .tot-saving-container .content {
+				width: 40%;
+			}
+		}
 	</style>
 </head>
+
 <body>
 	<div class="main-container">
 		<div class="header-browser-view-link">
@@ -343,7 +417,7 @@
 		<div class="spartan-nash-container">
 			<div class="spartan-nash">
 				<a href="#" class="spartan-nash-logo">
-					<img src="assets/logo_spartannash@2x.png" alt="spartan nash">
+					<img src="http://myconfess.com/assets/logo_spartannash@2x.png" alt="spartan nash">
 				</a>
 			</div>
 		</div>
@@ -362,19 +436,19 @@
 				<ul>
 					<li>
 						<div class="img-container">
-							<img src="assets/ic_shop@2x.png" alt="shop">
+							<img src="http://myconfess.com/assets/ic_shop@2x.png" alt="shop">
 						</div>
 						<h3>SHOP</h3>
 					</li>
 					<li>
 						<div class="img-container">
-							<img src="assets/ic_card@2x.png" alt="card">
+							<img src="http://myconfess.com/assets/ic_card@2x.png" alt="card">
 						</div>
 						<h3>SCAN <br>LOYALTY CARD</h3>
 					</li>
 					<li>
 						<div class="img-container">
-							<img src="assets/ic_save@2x.png" alt="save">
+							<img src="http://myconfess.com/assets/ic_save@2x.png" alt="save">
 						</div>
 						<h3>SAVE</h3>
 					</li>
@@ -385,7 +459,7 @@
 			<div class="product-container">
 				<div class="product">
 					<div class="product-img">
-						<img src="assets/img_tomato@2x.png" alt="Red Tomatoes">
+						<img src="http://myconfess.com/assets/img_tomato@2x.png" alt="Red Tomatoes">
 					</div>
 					<div class="off">
 						10% OFF
@@ -399,7 +473,7 @@
 				</div>
 				<div class="product">
 					<div class="product-img">
-						<img src="assets/img_onion@2x.png" alt="Red Onions">
+						<img src="http://myconfess.com/assets/img_onion@2x.png" alt="Red Onions">
 					</div>
 					<div class="off">
 						10% OFF
@@ -413,7 +487,7 @@
 				</div>
 				<div class="product">
 					<div class="product-img">
-						<img src="assets/img_kettle_chips@2x.png" alt="Lays">
+						<img src="http://myconfess.com/assets/img_kettle_chips@2x.png" alt="Lays">
 					</div>
 					<div class="sticker">
 						<label>Your Price</label>
@@ -428,7 +502,7 @@
 				</div>
 				<div class="product">
 					<div class="product-img">
-						<img src="assets/img_kraft@2x.png" alt="Kraft">
+						<img src="http://myconfess.com/assets/img_kraft@2x.png" alt="Kraft">
 					</div>
 					<div class="sticker">
 						<label>Your Price</label>
@@ -443,7 +517,7 @@
 				</div>
 				<div class="product">
 					<div class="product-img">
-						<img src="assets/img_ritz@2x.png" alt="Kraft">
+						<img src="http://myconfess.com/assets/img_ritz@2x.png" alt="Kraft">
 					</div>
 					<div class="sticker">
 						<label>Your Price</label>
@@ -459,7 +533,7 @@
 				</div>
 				<div class="product">
 					<div class="product-img">
-						<img src="assets/img_vita.png" alt="Vita">
+						<img src="http://myconfess.com/assets/img_vita.png" alt="Vita">
 					</div>
 					<div class="special-saving">
 						SAVE $1.00
@@ -477,7 +551,7 @@
 			<div class="tot-saving-container">
 				<div class="content">
 					<div class="img-container sec">
-						<img src="assets/ic_total_savings.png" alt="total savings">
+						<img src="http://myconfess.com/assets/ic_total_savings.png" alt="total savings">
 					</div>
 					<div class="tot-saving-lbl sec">
 						<label>SAVING FOR THE LAST 12 MONTHS</label>
@@ -487,21 +561,21 @@
 					</div>
 				</div>
 				<div class="basil-img">
-					<img src="assets/img_basil@2x.png">
+					<img src="http://myconfess.com/assets/img_basil@2x.png">
 				</div>
 			</div>
 		</div>
 		<div class="footer">
 			<div class="feedback-sec">
 				<div class="feedback-text">
-					<a href="#"><img src="assets/ic_feedback.png"></a>
+					<a href="#"><img src="http://myconfess.com/assets/ic_feedback.png"></a>
 					<span>Give us your feedback</span>
 				</div>
 				<div class="social-icons">
-					<a href="#" class="facebook"><img src="assets/icn_facebook.png"></a>
-					<a href="#" class="twitter"><img src="assets/icn_twitter.png"></a>
-					<a href="#" class="pinterest"><img src="assets/icn_pinterest.png"></a>
-					<a href="#" class="instagram"><img src="assets/icn_instagram.png"></a>
+					<a href="#" class="facebook"><img src="http://myconfess.com/assets/icn_facebook.png"></a>
+					<a href="#" class="twitter"><img src="http://myconfess.com/assets/icn_twitter.png"></a>
+					<a href="#" class="pinterest"><img src="http://myconfess.com/assets/icn_pinterest.png"></a>
+					<a href="#" class="instagram"><img src="http://myconfess.com/assets/icn_instagram.png"></a>
 				</div>
 			</div>
 			<div class="menu">
@@ -520,4 +594,5 @@
 		</div>
 	</div>
 </body>
+
 </html>
